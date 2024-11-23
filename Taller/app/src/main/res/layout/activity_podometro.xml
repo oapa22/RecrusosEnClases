@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".Podometro">
+
+    <TextView
+        android:id="@+id/txt_5_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:text="PODÓMETRO"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_5_1"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginVertical="8dp"
+        app:cornerRadius="0dp"
+        android:backgroundTint="#6805FD"
+        android:text="0 Pasos" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginVertical="14dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_5_2"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:layout_marginHorizontal="2dp"
+            android:layout_weight="1"
+            android:backgroundTint="#68B848"
+            android:text="START"
+            app:cornerRadius="0dp" />
+
+        <Button
+            android:id="@+id/btn_5_3"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:layout_marginHorizontal="2dp"
+            android:layout_weight="1"
+            android:backgroundTint="#D20103"
+            android:text="STOP"
+            app:cornerRadius="0dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_5_4"
+        android:layout_width="match_parent"
+        app:cornerRadius="0dp"
+        android:layout_height="62dp"
+        android:layout_marginVertical="8dp"
+        android:backgroundTint="#3F51B5"
+        android:text="Regresar" />
+</LinearLayout>
